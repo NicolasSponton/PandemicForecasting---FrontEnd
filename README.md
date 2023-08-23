@@ -1,6 +1,6 @@
 <a name="readme-top"></a>
 
-## About The Project
+## Pandemic Forecasting
 
 Covid Daily Cases Forecasting - Front End
 
