@@ -71,7 +71,7 @@ function App() {
           <Line {...config} onReady={(chartInstance) => (chart = chartInstance)} />
         </Col>
         <Col span={8}>
-            <h2>Last 7 Days</h2>
+            <h2>Next 7 Days</h2>
             {forecastedCases.map(item => (
               <p><strong>{item.date}: </strong>{item.cases}</p>
             ))}
