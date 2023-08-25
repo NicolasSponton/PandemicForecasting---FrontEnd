@@ -4,6 +4,8 @@
 
 Covid Daily Cases Forecasting - Front End
 
+[Back End App](https://github.com/NicolasSponton/PandemicForecasting---BackEnd) NEEDED! 
+
 <!-- GETTING STARTED -->
 ## Getting Started
 
