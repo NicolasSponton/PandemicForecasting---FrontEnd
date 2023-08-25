@@ -41,7 +41,7 @@ function App() {
     data:[...dailyCases, ...forecastedCases],
     width: 800,
     height: 400,
-    autoFit: false,
+    autoFit: true,
     xField: 'date',
     yField: 'cases',
     lineStyle: { lineWidth: 2 },
@@ -49,6 +49,7 @@ function App() {
     responsive: true, 
     xAxis: {
       label: { autoHide: true },
+      tickCount: 5,
     },
     yAxis: {
       label: { autoHide: true },
@@ -60,7 +61,7 @@ function App() {
   return (
     <>
       <Row>
-        <Col span={12}>
+        <Col span={16}>
           <button type="button" onClick={()=>chart?.downloadImage()} style={{ marginRight: 24 }}>
             Export Image
           </button>
@@ -69,7 +70,7 @@ function App() {
           </button>
           <Line {...config} onReady={(chartInstance) => (chart = chartInstance)} />
         </Col>
-        <Col span={12}>
+        <Col span={8}>
             <h2>Last 7 Days</h2>
             {forecastedCases.map(item => (
               <p><strong>{item.date}: </strong>{item.cases}</p>
