@@ -6,6 +6,9 @@ Covid Daily Cases Forecasting - Front End
 
 [Back End App](https://github.com/NicolasSponton/PandemicForecasting---BackEnd) NEEDED! 
 
+## Description
+Fetch covid cases forecast data from back-end and shows it with a graph and table.
+
 <!-- GETTING STARTED -->
 ## Getting Started
 
